@@ -32,8 +32,7 @@ export default function SearchMovies(){
             <button className="button" type="submit">Search</button>
         </form>
         <div className="card-list"></div>
-            {movies.map()}
-
+            {movies.map(movie => movie.title)}
         </>
     )
 }
