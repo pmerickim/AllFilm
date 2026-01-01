@@ -47,5 +47,6 @@ small {
     padding: 0.5rem 2rem;
     line-height: 2.8rem;
     border-radius: 20px;
+    border: 1px solid #ddd
 
 }
