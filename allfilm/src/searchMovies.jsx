@@ -32,7 +32,7 @@ export default function SearchMovies(){
             <button className="button" type="submit">Search</button>
         </form>
         <div className="card-list">
-            {movies.map(movie => (
+            {movies.filter(movie => map(movie => (
                     <div className="card" key={movie.id}>
                         <img className="card--image"
                             src={`https://image.tmdb.org/t/p/w185_and_h278_bestv2/${movie.poster_path}`}
