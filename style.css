@@ -35,8 +35,6 @@ small {
 .form {
     display:grid;
     
-  grid-template-columns: 1fr auto; /* single column */
-  gap: 10px;
 
 }
 
