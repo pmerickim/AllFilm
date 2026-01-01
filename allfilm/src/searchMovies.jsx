@@ -40,7 +40,8 @@ export default function SearchMovies(){
                             />
                         <div className="card--content">
                         <h3 className="card--title"></h3>
-                        <p><small>RELEASE DATE: {movie.release}
+                        <p><small>RELEASE DATE: {movie.release_date}</small></p>
+                        <p><small>RELEASE DATE: {movie.release_date}</small></p>
 
                         </div>
 
