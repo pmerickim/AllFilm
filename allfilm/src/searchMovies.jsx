@@ -27,6 +27,7 @@ export default function SearchMovies(){
             <label className="label" htmlFor="query">Movie Name</label>
             <input className="input" type="text" name="query"
                 placeholder="i.e. Jurassic Park"/>
+                value={query}
             <button className="button" type="submit">Search</button>
         </form>
     )
