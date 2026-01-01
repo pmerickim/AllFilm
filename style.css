@@ -7,8 +7,8 @@ html {
 }
 
 body {
-    margin: 10;
-    padding: 10;
+        margin: 0;
+    padding: 0;
     background-color: rgb(244,244,244);
     color: #333;
 }
