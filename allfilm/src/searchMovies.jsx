@@ -32,7 +32,7 @@ import React, {useState} from "react";
             </form>
             <div className="card-list">
                 {movies.filter(movie => movie.poster_path).map(movie => (
-                      <MovieCard movie={movie} key={movie.id} />
+                    <MovieCard movie={movie} key={movie.id} />
 
                 ))}
             </div>    
