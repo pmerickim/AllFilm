@@ -22,6 +22,7 @@ export default function SearchMovies(){
     }
     
     return (
+        <>
         <form className="form" onSubmit={searchMovies}>
             <label className="label" htmlFor="query">Movie Name</label>
             <input className="input" type="text" name="query"
@@ -30,5 +31,6 @@ export default function SearchMovies(){
                 />
             <button className="button" type="submit">Search</button>
         </form>
+        </>
     )
 }
