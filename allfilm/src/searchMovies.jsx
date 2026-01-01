@@ -31,6 +31,8 @@ export default function SearchMovies(){
                 />
             <button className="button" type="submit">Search</button>
         </form>
+        <div className="card-list"></div>
+
         </>
     )
 }
