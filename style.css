@@ -49,5 +49,10 @@ small {
     border-radius: 20px;
     border: 1px solid #ddd
     margin-bottom: 0.5rem;
+}
+
+.button {
+    background-color: rgba(0,0,0,0.75);
+    color: white;
 
 }
