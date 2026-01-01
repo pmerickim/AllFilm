@@ -71,6 +71,10 @@ small {
         grid-template-columns: auto 1fr auto;
         grid-gap: 1rem;
         align-items: center;
+    }
+
+.input {
 
     }
+}
 }
