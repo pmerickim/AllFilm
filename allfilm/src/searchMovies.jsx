@@ -6,7 +6,7 @@ export default function SearchMovies(){
     
     const [query, setQuery] = useState('')
     const searchMovies = async (e) => {
-        e.preventDefault();
+        e.preventDefault()
         
         const query = "Jurassic Park";
         
