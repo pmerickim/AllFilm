@@ -55,5 +55,5 @@ small {
     background-color: rgba(0,0,0,0.75);
     color: white;
     padding: 1rem 2rem;
-
+    border: 1px solid;
 }
