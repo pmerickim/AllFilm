@@ -33,8 +33,9 @@ export default function SearchMovies(){
         </form>
         <div className="card-list">
             {movies.map(movie => (
-            
-            </div>
+                <div className="card"> 
+                        <img className="card--image"></img>
+                </div>
             ))}
         </>
     )
