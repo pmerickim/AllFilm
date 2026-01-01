@@ -65,3 +65,9 @@ small {
 .button:hover {
     background-color: rgba(0,0,0,0.)
 }
+
+@media (min-width:786px){
+    .form {
+        grid-template-columns: auto 
+    }
+}
