@@ -39,6 +39,8 @@ export default function SearchMovies(){
                             alt={movie.title + ' poster'}
                             />
                         <div className="card--content">
+                        <h3 className="card--title"></h3>
+
                         </div>
 
                     </div>
