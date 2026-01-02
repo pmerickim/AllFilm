@@ -34,6 +34,7 @@ import React, {useState} from "react";
                 {movies.filter(movie => movie.poster_path).map(movie => (
                     <MovieCard movie={movie} key={movie.id} />
 
+                    
                 ))}
             </div>    
         </>
