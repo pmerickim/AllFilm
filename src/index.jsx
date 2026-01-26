@@ -1,11 +1,23 @@
-import React from 'react';
-import { createRoot } from 'react-dom/client';
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import SearchMovies from "./searchMovies";
+
+import './style.css'
 
 class Main extends React.Component {
   render() {
-    return <h1>AllFilm</h1>;
+    return (
+      <div className="container">
+        <h1 className="title">AllFilm</h1>
+        <SearchMovies/>
+      </div>
+    )
   }
 }
 
-const root = createRoot(document.getElementById('root'));
-root.render(<Main />);
+const root = ReactDOM.createRoot(document.getElementById('root'))
+root.render(
+  <React.StrictMode>
+    <Main />
+  </React.StrictMode>
+)
