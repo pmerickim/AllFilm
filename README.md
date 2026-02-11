@@ -1,16 +1,39 @@
-# React + Vite
+A simple IMDb-style movie search application built with React.
+Users can search for movies and add them to a personal watchlist, which is stored locally in the browser.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+No login. No accounts. No backend.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- Search movies by title
+- View movie details (poster, title, year, rating, etc.)
+- Add / remove movies from a watchlist
+- Persistent watchlist using LocalStorage
+- Built with React functional components and hooks
+- No authentication or database required
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- JavaScript
+- TMDb API
+- Browser LocalStorage
+
+---
+
+## App Logic Overview
+
+### Movie Search
+- User enters a movie title in the search input
+- App fetches matching movies from TMDB API
+- Results are displayed as movie cards
+
+### Watchlist (to be added)
+- Clicking Add to Watchlist saves the movie to LocalStorage
+- Watchlist state is initialized from LocalStorage on app load
+- Movies can be removed from the watchlist
+- Watchlist updates persist across page refreshes
